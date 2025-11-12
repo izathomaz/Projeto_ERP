@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #F3F4F6 ;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #372AAC;
+}
