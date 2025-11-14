@@ -3,12 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-background-color: #F3F4F6 ;
+
+body {
+    background-color: #F3F4F6;
 }
-.menu{
+
+.menu {
+    justify-content: start;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     background-color: #372AAC;
+    width: 250px;
+    height: 100dvh;
+    color: white;
+
+    img {
+        margin: 5px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .nome {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .cima {
+        flex-direction: column;
+        padding: 10px;
+
+        button {
+            display: flex;
+            align-items: center;
+            background-color: #372AAC;
+            border: none;
+            border-radius: 8px;
+            height: 45px;
+            width: 230px;
+            font-weight: 600;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #432DD7;
+        }
+    }
+
+    .baixo {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        
+        button {
+            display: flex;
+            align-items: center;
+            background-color: #372AAC;
+            border: none;
+            border-radius: 8px;
+            height: 40px;
+            width: 230px;
+            font-weight: 600;
+            color: #FD7541;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .usuario {
+            flex-direction: column;
+            
+
+        }
+    }
 }
